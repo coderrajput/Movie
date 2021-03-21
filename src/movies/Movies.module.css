@@ -1,0 +1,30 @@
+
+.heading{
+    display: block;
+}
+
+
+.popular{
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* min-height: 0; */
+    /* height: auto; */
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}

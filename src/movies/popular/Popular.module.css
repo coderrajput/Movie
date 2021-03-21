@@ -1,0 +1,12 @@
+.popular{
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* min-height: 0; */
+    /* height: auto; */
+}
